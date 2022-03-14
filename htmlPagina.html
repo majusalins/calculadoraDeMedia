@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<head>
+    <fieldset>
+    <title>Calculadora</title>
+    <h2>
+        <center>CALCULADORA DE MÉDIA</center>
+    </h2>
+    <h4>calcule a média entre duas notas!</h4><br>
+</head>
+
+<link rel="stylesheet" href="calculadora.css">
+
+<script>
+    function soma(){
+    var n1 = parseFloat(document.getElementById("n1").value);
+    var n2 = parseFloat(document.getElementById("n2").value);
+    var res = (n1 + n2) / 2;
+    //alert("A média é " + res + ".")
+    document.getElementById("res").innerHTML = "A média é "  + res + ".";
+    console.log(res);
+} 
+</script>
+
+<body>
+    <div class = "container">
+        
+            <label for="n1">Insira a primeira nota:</label>
+            <input type="number" id="n1" name="n1"><br><br>
+            <label for="n2">Insira a segunda nota: </label>
+            <input type="number" id="n2" name="n2"> <br><br>
+
+            <div class = "resultado">
+            <center><h5 id="res"></center></h5><br>
+            <button onclick = soma()>CALCULAR</button>
+            </div>
+
+        </fieldset>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+h2 {
+    font-family: 'helvetica', sans-serif;
+    margin: 30px;
+   }
+   
+   h4 {
+       font-family: 'noto sans', sans-serif;
+   }
+   
+   h5 {
+       position: center sticky;
+   }
+   
+   body {
+       background-color: #e9e9e9;
+       color: #34442a;
+       text-align: center;
+       font-family: 'noto sans', sans-serif;
+       position: sticky;
+   }
+   
+   fieldset {
+       margin: 10px auto 10px auto;
+       width: 30%;
+       height: 350px;
+       padding: 3%;
+       border: 2px #228b22 solid;
+       border-radius: 10px;
+       background-color: #9ccc7f;
+   }
+   
+   div.container and div.resultado{
+       position: sticky;
+   }
+   
+   input {
+       background-color: #b9dba5;
+       position: sticky;
+   }
+   
+   button{
+       background-color: #b9dba5;
+       border-radius: 5px;
+       border-color: #228b22;
+       color: #34442a;
+       position: sticky;
+   }
